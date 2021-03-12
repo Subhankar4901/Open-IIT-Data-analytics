@@ -33,36 +33,49 @@
 ---
 ## How to colaborate
 * Fork this repository.   
-* Clone the forked repository to your local machine :
+* Clone the forked repository to your local machine :   
+    ```bash
+    git clone your_forked_repo_https_adress
+    ```
+*  Set this main repository as upstream :   
+    ```bash
+    git remote add upstream https://github.com/Subhankar4901/Open-IIT-Data-analytics.git 
+    ```  
+* Before starting any work always pull the changes other colaborators made :   
+    ```bash
+    git pull upstream main
+    ```
 
-   > git clone https_link_to_the_forked_repository   
-*  Set this main repository as upstream :
-    >git remote add upstream https://github.com/Subhankar4901/Open-IIT-Data-analytics.git   
-* Before starting any work always pull the changes other colaborators made :
-    >git pull upstream main
+* Create a new branch :   
+    ```bash
+     git branch branch_name
+     ```   
 
-* Create a new branch :
-
-    > git branch branch_name   
-
-* Switch to a new branch :
-
-    >git checkout branch_name   
+* Switch to a new branch :   
+    ```bash
+    git checkout branch_name
+    ```   
 
 * Now apply the changes.   
-* If you are confident with changes you made then, stage the changes and commit them :
-    > git add file_name   
-    > git commit 
+* If you are confident with changes you made then, stage the changes and commit them :   
+    ```bash
+    git add file_name   
+    git commit
+    ``` 
 * Then write the commit messege.   
     * **Commit messege should be easy to understand and explain every thing you changed**
 * Now merge your changes with main :   
-    > git checkout main   
-    > git merge branch_name   
+    ```bash
+    git checkout main   
+    git merge branch_name
+    ```   
 
 * If you didn't counter any merge conflict then it's all okay.   
 * If you counter any merge conflicts then read : [Merge conflict article](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)   
-* After solving possible merge conflicts push your changes to your forked repository :   
-    >git push origin main   
+* After solving possible merge conflicts push your changes to your forked repository :    
+    ```bash
+   git push origin main
+    ```
 * Then go to your forked repo in github and make a pull request, so that your changes can be applied to the upstream repository.
   
 ---
