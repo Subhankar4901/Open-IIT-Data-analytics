@@ -22,7 +22,7 @@
 | :----: | :---- | :----: |
 |Sarthak Goyal| |Captain
 |Aditya Agarwal | |Member|
-|Hari Ganesh | |Member|
+|Hari Ganesan |[Profile Link](https://github.com/hari-ajidesh)|Member|
 |Subhankar Halder |[Profile link](https://github.com/Subhankar4901)|Member|
 |Utkarsh Singh | |Member|
 |Deepansh Agrawal||Member|
